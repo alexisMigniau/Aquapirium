@@ -1,0 +1,21 @@
+article
+{
+    background: rgb(230, 169, 3);
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    background: url('../image/separateur.png') no-repeat left bottom;
+}
+
+aside
+{
+    width: 30%;
+}
+
+article
+{
+    width: 70%;
+}
