@@ -43,9 +43,10 @@ img.logo{
     width: 100px;
 }
 
-hr.blue {
-    height: 12px;
+.hr-blue {
     color: #3189DA;
+    opacity: 1;
+    height: 2px;
 }
 
 #twitch{
