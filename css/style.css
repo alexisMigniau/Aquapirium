@@ -1,0 +1,53 @@
+/* Utilisation de la font Roboto de Google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Découpage sidebar et article */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: start;
+    align-items: auto;
+}
+
+.flex-items:nth-child(1) {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    margin: 0 24px;
+}
+
+.flex-items:nth-child(2) {
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
+
+/* Titre */
+#titre{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titre > h1 {
+    color: #3189DA;
+}
+
+img.logo{
+    width: 100px;
+}
+
+hr.blue {
+    height: 12px;
+    color: #3189DA;
+}
+
+#twitch{
+    width: 1280px;
+}
