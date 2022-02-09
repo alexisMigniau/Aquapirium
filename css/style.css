@@ -31,11 +31,11 @@
 #titre{
     margin-top: 15px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: flex-end;
 }
 
-#titre > h1 {
+h1,h4 {
     color: #3189DA;
 }
 
@@ -47,8 +47,21 @@ img.logo{
     color: #3189DA;
     opacity: 1;
     height: 2px;
+    margin-bottom: 20px;
 }
 
-#twitch{
-    width: 1280px;
+/* Découpage cards et fiches des poissons */
+.cards {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cards-items {
+    order: 0;
+    flex: 1 1 auto;
+    align-self: auto;
+    margin: 24px 0px;
+    background-color: blue;
 }
