@@ -3,6 +3,7 @@
 
 *{
     font-family: 'Roboto', sans-serif;
+    color: #3189DA;
 }
 
 /* Découpage sidebar et article */
@@ -35,10 +36,6 @@
     align-items: flex-end;
 }
 
-h1,h4 {
-    color: #3189DA;
-}
-
 img.logo{
     width: 100px;
 }
@@ -47,21 +44,23 @@ img.logo{
     color: #3189DA;
     opacity: 1;
     height: 2px;
-    margin-bottom: 20px;
 }
 
 /* Découpage cards et fiches des poissons */
 .cards {
-    width: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .cards-items {
     order: 0;
     flex: 1 1 auto;
-    align-self: auto;
-    margin: 24px 0px;
-    background-color: blue;
+    margin: 12px 0px;
+    background-color: #96C2EC;
+}
+
+.cards-items > img {
+    height: 30%;
 }
